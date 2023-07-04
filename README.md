@@ -1,2 +1,2 @@
-# Get Pass DBeaver
+# GetPass DBeaver
 Get Passwords DBeaver
