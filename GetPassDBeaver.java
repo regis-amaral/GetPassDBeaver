@@ -9,6 +9,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.security.*;
 
+
 public class GetPassDBeaver {
 
     private static final byte[] LOCAL_KEY_CACHE = new byte[] { -70, -69, 74, -97, 119, 74, -72, 83, -55, 108, 45, 101, 61, -2, 84, 74 };
@@ -43,7 +44,9 @@ public class GetPassDBeaver {
     private static String showData(byte[] contents)throws InvalidAlgorithmParameterException, InvalidKeyException,
     IOException, NoSuchPaddingException, NoSuchAlgorithmException{
         String senhasJson = decrypt(contents);
-        //TRABALHAR OS DADOS DAS CONEXÕES AQUI
+        
+        //
+        
         return senhasJson;
     }
 
